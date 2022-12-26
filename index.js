@@ -31,12 +31,12 @@ function SendMail() {
   };
   emailjs
     .send("service_mjhbsih", "template_7o0rddj", params)
-    .then(function (res) {
-      //   (document.getElementById("name").value = ""),
-      //     (document.getElementById("phone").value = ""),
-      //     (document.getElementById("email").value = ""),
-      //     (document.getElementById("message").value = ""),
-      //     console.log(res);
+    .then((res) => {
+      (document.getElementById("name").value = ""),
+        (document.getElementById("phone").value = ""),
+        (document.getElementById("email").value = ""),
+        (document.getElementById("message").value = ""),
+        console.log(res);
       alert("Your Message Sent Successfully");
     })
     .catch((err) => console.log(err));
