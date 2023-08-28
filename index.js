@@ -23,7 +23,7 @@ navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 /*==================== Contact EmailJS ====================*/
 function SendMail() {
-  var params = {
+  let params = {
     name: document.getElementById("name").value,
     phone: document.getElementById("phone").value,
     email: document.getElementById("email").value,
